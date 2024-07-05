@@ -1,14 +1,17 @@
-**Campus Communication Scheduler for WhatsApp 📱**
+
+# Campus Communication Scheduler for WhatsApp 📱
 
 A Python application designed to send customized WhatsApp messages to students, reminding them of important deadlines, events, and activities.
 
-### **Features 🎉**
+## Features 🎉
 
 - **Customizable Messages**: The application generates messages based on the student's name, pending assignments, fee, attendance, and various events such as seminars, cultural events, and job fairs.
+  
 - **Scheduled Messaging**: Users can specify the time for the message to be sent.
+  
 - **User-Friendly Interface**: The application features a simple and intuitive GUI built using Tkinter, making it easy to use for administrators.
 
-### **Usage 📊**
+## Usage 📊
 
 1. **Install Required Libraries**:
    - `pip install pywhatkit`
@@ -20,18 +23,18 @@ A Python application designed to send customized WhatsApp messages to students, 
    - Set the desired time for the message to be sent.
    - Click the "Send" button to schedule and send the message.
 
-### **Note 📝**
+### Note 📝
 
 - Ensure that the system's clock is set correctly, as the message will be sent at the specified time based on the system's clock.
 - The application uses the `pywhatkit` library to send WhatsApp messages. This library may have limitations or restrictions on the number of messages that can be sent.
 
-### **Screenshots 📸**
+## Screenshots 📸
 
 ![Screenshot 2024-07-05 140251](https://github.com/Manoj010104/Campus-Communication-Scheduler-for-WhatsApp/assets/120236387/1e927d29-2374-41b5-993c-9601641bbbd3)
 ![Screenshot 2024-07-05 141622](https://github.com/Manoj010104/Campus-Communication-Scheduler-for-WhatsApp/assets/120236387/64115454-dfee-4a24-bd74-deaa0b1c591c)
 ![Screenshot 2024-07-05 141703](https://github.com/Manoj010104/Campus-Communication-Scheduler-for-WhatsApp/assets/120236387/11ed2395-1443-4324-923b-eb35b09e23e5)
 
-### **Mainstream Libraries for WhatsApp Automation 🤖**
+## Mainstream Libraries for WhatsApp Automation 🤖
 
 1. **Twilio**:
    - **Advantages:** Comprehensive features for WhatsApp automation, allows for two-way conversations, chatbots, and notifications.
@@ -57,13 +60,11 @@ A Python application designed to send customized WhatsApp messages to students, 
    - **Advantages:** Supports multiple messaging channels, including WhatsApp, SMS, and Voice, offers a robust API for automating messages, supports two-way conversations and chatbots.
    - **Disadvantages:** Requires explicit user opt-ins to deliver messages, may have limitations or restrictions on the number of messages that can be sent.
 
-### **Authors 👥**
+## Authors 👥
 
 - [Manoj]
 
-### **Acknowledgments 🙏**
+## Acknowledgments 🙏
 
 - The `pywhatkit` library for providing a convenient way to send WhatsApp messages.
 - The Tkinter library for creating the GUI.
-
-This text now includes emojis to make it more visually appealing and engaging.
